@@ -1,0 +1,17 @@
+{
+  "canisters": {
+    "greenhouse-sensor-data-manager-backend": {
+      "candid": "src/greenhouse-sensor-data-manager-backend/greenhouse-sensor-data-manager-backend.did",
+      "package": "greenhouse-sensor-data-manager-backend",
+      "type": "rust"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

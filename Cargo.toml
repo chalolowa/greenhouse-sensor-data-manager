@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "src/greenhouse-sensor-data-manager-backend"
+]
+resolver = "2"
