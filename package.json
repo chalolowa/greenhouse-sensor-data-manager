@@ -2,5 +2,12 @@
   "scripts": {
     "generate": "./did.sh && dfx generate",
     "gen-deploy": "./did.sh && dfx generate && dfx deploy -y"
-  }
+  },
+  "name": "greenhouse-sensor-data-manager",
+  "version": "1.0.0",
+  "description": "The Greenhouse Sensor Data Manager is an essential component for managing and processing data collected from various IoT sensors deployed in a greenhouse environment. These sensors monitor critical parameters such as temperature, humidity, soil moisture, CO₂ levels, and light intensity, providing real-time insights into the greenhouse's environmental conditions. Efficient data management helps optimize agricultural practices, ensuring crops grow under ideal conditions while reducing resource wastage.",
+  "main": "index.js",
+  "keywords": [],
+  "author": "locha",
+  "license": "ISC"
 }
